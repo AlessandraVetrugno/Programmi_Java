@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="Ltabellone" prefHeight="421.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prontosoccorso.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="694.0" layoutY="81.0" onAction="#handleButtonAction" text="Aggiungi" />
+        <Label fx:id="label1" layoutX="27.0" layoutY="57.0" minHeight="16" minWidth="69" text="Nome" />
+      <TextField fx:id="txtnome" layoutX="27.0" layoutY="81.0" />
+      <TextField fx:id="txtcognome" layoutX="195.0" layoutY="81.0" />
+      <TextField fx:id="txtcodfiscale" layoutX="362.0" layoutY="81.0" />
+      <ComboBox fx:id="cmbSintomi" layoutX="531.0" layoutY="81.0" prefWidth="150.0" promptText="Sintomi" />
+      <Label fx:id="label2" layoutX="195.0" layoutY="57.0" prefHeight="17.0" prefWidth="95.0" text="Cognome" />
+      <Label fx:id="label3" layoutX="362.0" layoutY="57.0" prefHeight="17.0" prefWidth="117.0" text="Codice Fiscale" />
+      <Label fx:id="label" layoutX="27.0" layoutY="131.0" prefHeight="17.0" prefWidth="95.0" text="Codice:" />
+      <Label fx:id="label4" layoutX="120.0" layoutY="131.0" prefHeight="17.0" prefWidth="340.0" />
+      <ListView fx:id="listaPaz" layoutX="27.0" layoutY="152.0" prefHeight="253.0" prefWidth="548.0" />
+      <Label fx:id="paziente" layoutX="33.0" layoutY="152.0" prefHeight="17.0" prefWidth="110.0" text="Paziente:" />
+    </children>
+</AnchorPane>
